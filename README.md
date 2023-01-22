@@ -1,4 +1,4 @@
-### TrueWalks: Biomedical Knowledge Graph Embeddings with Negative Statements
+# TrueWalks: Biomedical Knowledge Graph Embeddings with Negative Statements
 
 ## Overview
 
