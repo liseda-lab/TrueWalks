@@ -1,0 +1,6 @@
+rdflib==5.00
+numpy==1.18.1
+sklearn==1.0.2
+scipy==1.7.3
+pandas==1.1.4
+gensim==3.8.1
