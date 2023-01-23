@@ -2,7 +2,7 @@
 
 ## Overview
 
-An overview of TrueWalks, the method we propose, is shown below. The first step is the transformation of the KG into an RDF Graph. Next, our novel random walk generation strategy that is aware of positive and negative statements is applied to the graph to produce a set of entity sequences. The positive and negative entity walks are fed to neural language models to learn a dual latent representation of the entities. TrueWalks has two variants: one that employs the classical skip-gram model to learn the embeddings (TrueWalks), and one that employs a variation of skip-gram that is aware of the order of entities in the walk (TrueWalksOA, i.e. order-aware). 
+An overview of TrueWalks, a method to learn Knowledge Graph (KG) embeddings taking into account negative statements is shown below. The first step is the transformation of the KG into an RDF Graph. Next, our novel random walk generation strategy that is aware of positive and negative statements is applied to the graph to produce a set of entity sequences. The positive and negative entity walks are fed to neural language models to learn a dual latent representation of the entities. TrueWalks has two variants: one that employs the classical skip-gram model to learn the embeddings (TrueWalks), and one that employs a variation of skip-gram that is aware of the order of entities in the walk (TrueWalksOA, i.e. order-aware). 
 
 <img src="https://github.com/liseda-lab/TrueWalks/blob/main/TrueWalks.png" width="450"/>
 
@@ -19,12 +19,12 @@ Run the command:
 python3 run_TrueWalksEmbeddings.py  
 ```
 
-This command will create an save TrueWalks embeddings (the description of the embedding file is in [Embeddings_format.txt](https://github.com/liseda-lab/TrueWalks/blob/main/Embeddings_format.txt)). The parameters and input files can be changed in the [configuration file](https://github.com/liseda-lab/TrueWalks/blob/main/configuration.py).
+This command will create and output TrueWalks embeddings to a file (the description of the embedding file is in [Embeddings_format.txt](https://github.com/liseda-lab/TrueWalks/blob/main/Embeddings_format.txt)). The parameters and input files can be changed in the [configuration file](https://github.com/liseda-lab/TrueWalks/blob/main/configuration.py).
 
 
 ## Evaluation and Datasets
 
-TrueWalks was evaluated on two biomedical tasks: protein-protein interaction (PPI) prediction and gene-disease association (GDA) prediction. The data is available in [Data](https://github.com/liseda-lab/TrueWalks/blob/main/Data) folder. Since the ontology files are too big, they should be downloaded and used:
+TrueWalks was evaluated on two biomedical tasks: protein-protein interaction (PPI) prediction and gene-disease association (GDA) prediction. The data to build the KG and subsequiently train the ML approaches or compute similarities can be found in [Data](https://github.com/liseda-lab/TrueWalks/blob/main/Data) except for the ontology and biomedical annotation data, which can be downloaded from their repositories:
 * [Gene Ontology](http://release.geneontology.org/2021-09-01/ontology/index.html)
 * [Human Phenotype Ontology](https://hpo.jax.org/app/data/ontology)
 
