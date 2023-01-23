@@ -24,9 +24,7 @@ This command will create and output TrueWalks embeddings to a file (the descript
 
 ## Evaluation and Datasets
 
-TrueWalks was evaluated on two biomedical tasks: protein-protein interaction (PPI) prediction and gene-disease association (GDA) prediction. The data to build the KG and subsequiently train the ML approaches or compute similarities can be found in [Data](https://github.com/liseda-lab/TrueWalks/blob/main/Data) except for the ontology and biomedical annotation data, which can be downloaded from their repositories:
-* [Gene Ontology](http://release.geneontology.org/2021-09-01/ontology/index.html)
-* [Human Phenotype Ontology](https://hpo.jax.org/app/data/ontology)
+TrueWalks was evaluated on two biomedical tasks: protein-protein interaction (PPI) prediction and gene-disease association (GDA) prediction. The data to build the KG and subsequiently train the ML approaches or compute similarities can be found in [Data](https://github.com/liseda-lab/TrueWalks/blob/main/Data) except for the GEne Ontology data, which can be downloaded [here](http://release.geneontology.org/2021-09-01/ontology/index.html).
 
 To use TrueWalks embeddings as input to a random forest classifier, run the command:
 ```
