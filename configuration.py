@@ -19,7 +19,7 @@ N_WALKS = 100
 #walk_depth: int, maximum depth of walks
 WALK_DEPTH = 4
 
-#language_model: {"word2vec","wang2vec"}, language model used to learn the embeddings
+#language_model: {"word2vec","wang2vec"}, language model used to learn the embeddings that can be order-aware ("wang2vec") or not ("word2vec)
 LANGUAGE_MODEL = "word2vec"
 
 #path_output_embedding: str, folder where the embeddings, walks and models files are saved
