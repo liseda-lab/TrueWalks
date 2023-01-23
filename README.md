@@ -19,7 +19,7 @@ Run the command:
 python3 run_TrueWalksEmbeddings.py  
 ```
 
-This command will create an save TrueWalks embeddings. It can be configured by the [configuration file](https://github.com/liseda-lab/TrueWalks/blob/main/configuration.py).
+This command will create an save TrueWalks embeddings (the description of the embedding file is in [Embeddings_format.txt](https://github.com/liseda-lab/TrueWalks/blob/main/Embeddings_format.txt)). The parameters and input files can be changed in the [configuration file](https://github.com/liseda-lab/TrueWalks/blob/main/configuration.py).
 
 
 ## Evaluation and Datasets
