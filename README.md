@@ -33,7 +33,7 @@ To use TrueWalks embeddings as input to a random forest classifier, run the comm
 python3 run_embedML.py  
 ```
 
-To use TrueWalks embeddings to compute similarity, run the command
+To use TrueWalks embeddings to compute similarity, run the command:
 ```
 python3 run_embedSS.py  
 ```
