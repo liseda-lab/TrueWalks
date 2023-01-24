@@ -7,7 +7,7 @@ An overview of TrueWalks, a method to learn Knowledge Graph (KG) embeddings taki
 <img src="https://github.com/liseda-lab/TrueWalks/blob/main/TrueWalks.png" width="450"/>
 
 
-## Pre-requesites
+## Pre-requisites
 * install python 3.6.8;
 * install python libraries by running the following command:  ```pip install -r req.txt```.
 
