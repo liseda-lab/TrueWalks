@@ -43,18 +43,18 @@ python3 run_embedSS.py
 
 ```
 @inproceedings{10.1007/978-3-031-47240-4_23,
-author = {Sousa, Rita T. and Silva, Sara and Paulheim, Heiko and Pesquita, Catia},
-title = {Biomedical Knowledge Graph Embeddings with&nbsp;Negative Statements},
-year = {2023},
-isbn = {978-3-031-47239-8},
-publisher = {Springer-Verlag},
-address = {Berlin, Heidelberg},
-url = {https://doi.org/10.1007/978-3-031-47240-4_23},
-doi = {10.1007/978-3-031-47240-4_23},
-booktitle = {The Semantic Web – ISWC 2023: 22nd International Semantic Web Conference, Athens, Greece, November 6–10, 2023, Proceedings, Part I},
-pages = {428–446},
-numpages = {19},
-keywords = {Biomedical Applications, Negative Statements, Knowledge Graph Embedding, Knowledge Graph},
-location = {Athens, Greece}
+    author = {Sousa, Rita T. and Silva, Sara and Paulheim, Heiko and Pesquita, Catia},
+    title = {Biomedical Knowledge Graph Embeddings with&nbsp;Negative Statements},
+    year = {2023},
+    isbn = {978-3-031-47239-8},
+    publisher = {Springer-Verlag},
+    address = {Berlin, Heidelberg},
+    url = {https://doi.org/10.1007/978-3-031-47240-4_23},
+    doi = {10.1007/978-3-031-47240-4_23},
+    booktitle = {The Semantic Web – ISWC 2023: 22nd International Semantic Web Conference, Athens, Greece, November 6–10, 2023, Proceedings, Part I},
+    pages = {428–446},
+    numpages = {19},
+    keywords = {Biomedical Applications, Negative Statements, Knowledge Graph Embedding, Knowledge Graph},
+    location = {Athens, Greece}
 }
 ```
