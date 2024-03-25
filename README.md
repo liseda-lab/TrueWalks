@@ -39,7 +39,7 @@ python3 run_embedSS.py
 ```
 
 
-## How to cite
+## How to Cite
 
 ```
 @inproceedings{10.1007/978-3-031-47240-4_23,
